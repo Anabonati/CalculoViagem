@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustoViagemApp.MainPage"
+             Title="Viagem">
+
+    <ContentPage.Content>
+        <VerticalStackLayout>
+            <Label Text="Origem:" />
+            <Entry x:Name="txt_origem" />
+
+            <Label Text="Destino:" />
+            <Entry x:Name="txt_destino" />
+
+            <Label Text="Distancia:" />
+            <Entry x:Name="txt_distancia" />
+
+            <Label Text="Rendimento:" />
+            <Entry x:Name="txt_rendimento" />
+
+            <Label Text="Preço:" />
+            <Entry x:Name="txt_preco" />
+
+            <Button Text="Calcular"
+                Grid.Row="10" Grid.Column="0" Grid.ColumnSpan="2"
+                Clicked="BtnCalcular_Clicked" />
+
+            <Button Text="Adiciona Pedagio"
+                Grid.Row="10" Grid.Column="0" Grid.ColumnSpan="2"
+                Clicked="BtnCalcular_Clicked" />
+
+            <Button Text="Lista Pedagio"
+                Grid.Row="10" Grid.Column="0" Grid.ColumnSpan="2"
+                Clicked="BtnCalcular_Clicked" />
+
+        </VerticalStackLayout>
+    </ContentPage.Content>
+
+    
+
+</ContentPage>
